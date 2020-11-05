@@ -1,38 +1,48 @@
-.App {
+/* Add a black background color to the top navigation */
+.Navigation-Bar {
+  background-color: #333;
+  overflow: hidden;
   text-align: center;
+  padding: 14px 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navigation-Bar > img {
+  width: 100px;
+  height: 55px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 85%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-inner-container > div{
+  width: 40%;
+  /*
+  height: 200px;
+  background: red;*/
+  float: left;
+}
+
+.right-inner-container > div {
+  margin-left: 60%;
+  /*
+  height: 200px;
+  background: yellowgreen;*/
+}
+
+.thumbnail-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.blackButton{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whiteButton{
+  background-color: white;
+  color: black;
 }

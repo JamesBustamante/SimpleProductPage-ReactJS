@@ -1,0 +1,10 @@
+.thumbnail > img {
+    height: 50px;
+    width: 60px;
+}
+
+.thumbnail_selected > img {
+    border-style: solid;
+    height: 50px;
+    width: 60px;
+}
