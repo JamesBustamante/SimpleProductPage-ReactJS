@@ -16,6 +16,7 @@
   height: 200px;
   margin: 0 auto;
   padding: 10px;
+  position: relative;
 }
 
 .left-inner-container > div{

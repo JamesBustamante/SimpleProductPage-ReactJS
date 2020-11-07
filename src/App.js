@@ -5,6 +5,7 @@ import ProductData from './ProductData';
 import { isArrayEmpty } from './Utils';
 import Thumbnail from './Thumbnail';
 import Image from './Image';
+import Clock from './Clock';
 
 class App extends Component {
 
@@ -14,6 +15,12 @@ class App extends Component {
     isHeartRateClicked: false,
     image: "https://imgur.com/iOeUBV7.png"
   }
+
+  
+ // delete the interval just before component is removed
+componentWillUnmount() {
+    clearInterval(this.update);
+}
 
   onClickShowTime = (prop) => {
     this.setState({ isTimeClicked: true,isHeartRateClicked: false});
@@ -28,7 +35,7 @@ class App extends Component {
     this.setState({ image: src });
         };
 
-    render() {
+  render() {
 
       const thumbnails = isArrayEmpty(this.state.colourOptions) ? [] : this.state.colourOptions.map((item, pos) => {
         return (
@@ -49,6 +56,7 @@ class App extends Component {
           <br></br>
           <div className="container">
             <div className="left-inner-container">
+              {this.state.isTimeClicked ? <Clock /> : ""}
               {img}
             </div>
             <div className="right-inner-container">
