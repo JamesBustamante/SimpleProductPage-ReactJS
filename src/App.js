@@ -6,6 +6,8 @@ import { isArrayEmpty } from './Utils';
 import Thumbnail from './Thumbnail';
 import Image from './Image';
 import Clock from './Clock';
+import HeartRate from './HeartRate';
+import { bounceIn } from 'animate.css';
 
 class App extends Component {
 
@@ -43,7 +45,9 @@ componentWillUnmount() {
         )
       });
 
-      const img = <Image src={this.state.image} />;
+    const img = <Image src={this.state.image} />;
+    
+    const heartRate = <HeartRate />
     
 
       let timeButton = this.state.isTimeClicked ? "blackButton" : "whiteButton";
@@ -57,6 +61,7 @@ componentWillUnmount() {
           <div className="container">
             <div className="left-inner-container">
               {this.state.isTimeClicked ? <Clock /> : ""}
+              {this.state.isHeartRateClicked ? heartRate : ""}
               {img}
             </div>
             <div className="right-inner-container">

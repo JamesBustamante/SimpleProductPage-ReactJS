@@ -1,0 +1,15 @@
+.img > img {
+    position: absolute;
+    width: 75px;
+    height: 85px;
+    top: 200px;
+    left: 460px;
+    color: #DCDCDC;
+}
+
+.img > h3 {
+    position: absolute;
+    top: 265px;
+    left: 460px;
+    color: #DCDCDC;
+}
