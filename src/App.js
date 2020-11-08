@@ -85,9 +85,12 @@ componentWillUnmount() {
                   onClick={() => this.onClickShowHeartRate(this)}>
                   Heart Rate
                   </button>
+                <br></br>
+                  <button className="buy-now-button"> Buy Now</button>
               </div>
             </div>
           </div>
+          <div className="footer"><h4>James Bustamante &copy; 2020</h4></div>
         </div>
       )
     };

@@ -5,6 +5,7 @@
 
 .thumbnail_selected > img {
     border-style: solid;
+    color: teal;
     height: 50px;
     width: 60px;
 }
