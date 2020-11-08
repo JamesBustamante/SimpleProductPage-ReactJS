@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/SimpleProductPage-ReactJS/static/css/main.f446ba88.chunk.css",
-    "main.js": "/SimpleProductPage-ReactJS/static/js/main.78aabe79.chunk.js",
-    "main.js.map": "/SimpleProductPage-ReactJS/static/js/main.78aabe79.chunk.js.map",
-    "runtime-main.js": "/SimpleProductPage-ReactJS/static/js/runtime-main.6538d28a.js",
-    "runtime-main.js.map": "/SimpleProductPage-ReactJS/static/js/runtime-main.6538d28a.js.map",
-    "static/js/2.3768480b.chunk.js": "/SimpleProductPage-ReactJS/static/js/2.3768480b.chunk.js",
-    "static/js/2.3768480b.chunk.js.map": "/SimpleProductPage-ReactJS/static/js/2.3768480b.chunk.js.map",
-    "static/js/3.5fb579b0.chunk.js": "/SimpleProductPage-ReactJS/static/js/3.5fb579b0.chunk.js",
-    "static/js/3.5fb579b0.chunk.js.map": "/SimpleProductPage-ReactJS/static/js/3.5fb579b0.chunk.js.map",
+    "main.css": "/SimpleProductPage-ReactJS/static/css/main.7fed30ce.chunk.css",
+    "main.js": "/SimpleProductPage-ReactJS/static/js/main.3262b6fb.chunk.js",
+    "main.js.map": "/SimpleProductPage-ReactJS/static/js/main.3262b6fb.chunk.js.map",
+    "runtime-main.js": "/SimpleProductPage-ReactJS/static/js/runtime-main.d700c16b.js",
+    "runtime-main.js.map": "/SimpleProductPage-ReactJS/static/js/runtime-main.d700c16b.js.map",
+    "static/css/2.a1596f27.chunk.css": "/SimpleProductPage-ReactJS/static/css/2.a1596f27.chunk.css",
+    "static/js/2.3918ed92.chunk.js": "/SimpleProductPage-ReactJS/static/js/2.3918ed92.chunk.js",
+    "static/js/2.3918ed92.chunk.js.map": "/SimpleProductPage-ReactJS/static/js/2.3918ed92.chunk.js.map",
+    "static/js/3.aa457434.chunk.js": "/SimpleProductPage-ReactJS/static/js/3.aa457434.chunk.js",
+    "static/js/3.aa457434.chunk.js.map": "/SimpleProductPage-ReactJS/static/js/3.aa457434.chunk.js.map",
     "index.html": "/SimpleProductPage-ReactJS/index.html",
-    "static/css/main.f446ba88.chunk.css.map": "/SimpleProductPage-ReactJS/static/css/main.f446ba88.chunk.css.map",
-    "static/js/2.3768480b.chunk.js.LICENSE.txt": "/SimpleProductPage-ReactJS/static/js/2.3768480b.chunk.js.LICENSE.txt",
-    "static/media/amazon.ad9462dd.png": "/SimpleProductPage-ReactJS/static/media/amazon.ad9462dd.png"
+    "static/css/2.a1596f27.chunk.css.map": "/SimpleProductPage-ReactJS/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.7fed30ce.chunk.css.map": "/SimpleProductPage-ReactJS/static/css/main.7fed30ce.chunk.css.map",
+    "static/js/2.3918ed92.chunk.js.LICENSE.txt": "/SimpleProductPage-ReactJS/static/js/2.3918ed92.chunk.js.LICENSE.txt",
+    "static/media/amazon.ad9462dd.png": "/SimpleProductPage-ReactJS/static/media/amazon.ad9462dd.png",
+    "static/media/heartrate.46f26420.png": "/SimpleProductPage-ReactJS/static/media/heartrate.46f26420.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6538d28a.js",
-    "static/js/2.3768480b.chunk.js",
-    "static/css/main.f446ba88.chunk.css",
-    "static/js/main.78aabe79.chunk.js"
+    "static/js/runtime-main.d700c16b.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.3918ed92.chunk.js",
+    "static/css/main.7fed30ce.chunk.css",
+    "static/js/main.3262b6fb.chunk.js"
   ]
 }
